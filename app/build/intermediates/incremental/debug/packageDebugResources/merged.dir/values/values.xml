@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#CEE2EB</color>
+    <color name="brown">#CFDBE1</color>
+    <color name="green">#00B606</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Enter_discription">Enter the Discription</string>
+    <string name="addHeader">Add Contact List</string>
+    <string name="app_name">note</string>
+    <string name="contact_title">Contact Saving List</string>
+    <string name="content">Content</string>
+    <string name="discription">Discription</string>
+    <string name="edit_discription">Edit Discription</string>
+    <string name="edit_fname">Edit First Name</string>
+    <string name="edit_lname">Edit Last Name</string>
+    <string name="edit_phone">Edit Phone Number</string>
+    <string name="enter_FN">Enter the First Name</string>
+    <string name="enter_LN">Enter the Last Name</string>
+    <string name="enter_P">Enter the Phone Number</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="title">Title</string>
+    <string name="uHeader">Update Contact Saving</string>
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="android:statusBarColor">@color/green</item>
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication"/>
+</resources>

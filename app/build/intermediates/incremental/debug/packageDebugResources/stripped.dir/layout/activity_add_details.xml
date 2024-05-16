@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contextClickable="false"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blue"
+    tools:context=".add_details">
+
+    <TextView
+        android:id="@+id/addHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/addHeader"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_cloud_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/addHeading"
+        android:layout_marginEnd="6dp"/>
+
+    <EditText
+        android:id="@+id/FNEdit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_FN"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/addHeading"
+        android:background="@drawable/green_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/LNEdit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_LN"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/FNEdit"
+        android:background="@drawable/green_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/PEdit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_P"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/LNEdit"
+        android:background="@drawable/green_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/contentEdit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/Enter_discription"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/green_border"
+        android:layout_below="@id/PEdit"
+        android:layout_marginTop="12dp"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

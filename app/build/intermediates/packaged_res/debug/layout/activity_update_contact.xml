@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contextClickable="false"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blue"
+    tools:context=".UpdateContactActivity">
+
+    <TextView
+        android:id="@+id/updateHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/uHeader"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/updateSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_cloud_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/updateHeading"
+        android:layout_marginEnd="6dp"/>
+
+    <EditText
+        android:id="@+id/FNUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/edit_fname"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/updateHeading"
+        android:background="@drawable/green_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/LNUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/edit_lname"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/FNUpdate"
+        android:background="@drawable/green_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/PUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/edit_phone"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/LNUpdate"
+        android:background="@drawable/green_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/ContentUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/edit_discription"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/green_border"
+        android:layout_below="@id/PUpdate"
+        android:layout_marginTop="12dp"/>
+
+</RelativeLayout>
